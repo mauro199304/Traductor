@@ -77,7 +77,7 @@ then
    cd - > /dev/null
    echo -e "${redColour}Reinicie su terminal Termux${endColour}\n"
    sleep 1
-   echo -e "${yellowColour}Para ejecutar el traductor escriba en su terminal, ejemplo:${endColour}
+   echo -e "${yellowColour}Para ejecutar el traductor escriba en su terminal desde cualquier directorio, ejemplo:${endColour}
     ${blueColour}De ingles a español ----> ${greenColour}es${endColour}
     ${blueColour}De español a ingles ----> ${greenColour}en${endColour}"
    exit
@@ -92,7 +92,7 @@ else
 	   echo $escribe >> /data/data/com.termux/files/usr/etc/bash.bashrc
 	   cd - > /dev/null
 	   echo -e "${redColour}Reinicie su terminal Termux${endColour}\n"
-	   echo -e "${redColour}Para ejecutar el traductor escriba en su terminal, ejemplo:${endColour}
+	   echo -e "${redColour}Para ejecutar el traductor escriba en su terminal desde cualquier directorio, ejemplo:${endColour}
 	   ${blueColour}De ingles a español ---->${greenColour} es${endColour}
 	   ${blueColour}De español a ingles ---->${greenColour} en${endColour}"
    	#statements
