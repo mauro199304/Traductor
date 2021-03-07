@@ -87,7 +87,7 @@ else
 
    if [ -f $FICHEROO ]
    then
-	   echo "El fichero $FICHEROO existe"
+	   #echo "El fichero $FICHEROO existe"
 	   echo $escribir >> /data/data/com.termux/files/usr/etc/bash.bashrc
 	   echo $escribe >> /data/data/com.termux/files/usr/etc/bash.bashrc
 	   cd - > /dev/null
