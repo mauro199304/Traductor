@@ -83,7 +83,7 @@ then
    exit
 
 else
-   echo "El fichero $FICHERO no existe"
+   #echo "El fichero $FICHERO no existe"
 
    if [ -f $FICHEROO ]
    then
